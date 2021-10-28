@@ -37,3 +37,15 @@ header nav ul li a:active {
     background: rgb(196, 16, 16);
     border: 2px solid rgb(26, 178, 224);
 }
+
+.product-card_info {
+    width: 100%;
+}
+.product-card-info_title{
+    display: flex;
+
+}
+.product-card-info_title{
+display: flex;
+justify-content: space-between;
+}
