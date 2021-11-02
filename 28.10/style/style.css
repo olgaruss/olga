@@ -4,6 +4,11 @@
 html{
     
     scroll-behavior: smooth;/*Делает переход плавным*/}
+    body {
+        font-family:  'Open Sans', sans-serif;
+        background: rgb(226, 196, 175);
+
+    }
 header nav ul{ 
     list-style: none;
     display: flex;
@@ -40,12 +45,62 @@ header nav ul li a:active {
 
 .product-card_info {
     width: 100%;
-}
-.product-card-info_title{
+    margin-left: 20px;
     display: flex;
+    flex-direction: column;
 
 }
 .product-card-info_title{
 display: flex;
 justify-content: space-between;
+
 }
+.product-card_image img{
+max-width: 100%;
+max-height: 100%;
+}
+.product-card_image img{
+    width: 500px;
+    min-width: 150px;
+    height: 300px;
+    border: 1px solid #000;
+    box-sizing: border-box;
+    padding: 10px;
+    display: flex;
+    align-items: center;
+}
+.product-card{
+    display: flex;
+    width: 100%;
+    margin-top: 20px;
+}
+.product-card-info-btn{
+    margin-top: auto;
+    display: flex;
+    justify-content: end;
+}
+
+.product-card-info-btn a{
+    text-decoration: none;
+    border: 1px solid #131113f1;
+    background: rgb(64, 15, 223);
+    color: aliceblue;
+    border-radius: 20px;
+    padding: 5px;
+}
+.container{
+    width: 1000px;
+    margin: 0px auto;
+    box-sizing: border-box;
+}
+
+.catalog{
+    background:white (180, 28%, 90%);
+    padding: 20px;
+    box-sizing: border-box;
+    box-shadow: 10px 10px 20px rgba(0, 0, 0, 0.5);
+}
+.catalog:hover{
+    transition: all 0.3s;
+    box-shadow:10px 10px 40px rgba(0, 0, 0, 0.5);;
+}       

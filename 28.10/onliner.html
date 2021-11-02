@@ -7,6 +7,9 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Интернет магазин</title>
     <link rel="stylesheet" href="style/style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300;1,800&display=swap" rel="stylesheet">
 
     <style>
 
@@ -15,7 +18,7 @@
 </head>
 
 <body>
-    <header>
+    <header class="container">
         <nav>
             <ul>
                 <li>
@@ -34,24 +37,48 @@
         </nav>
     </header>
     <main>
-        <section id="about" style="height: 100vh;">
+        <section id="about" class="container catalog">
             <h2>О магазине</h2>
+
+        </section>
+        <section id="catalog" class="container catalog">
+            <h2>Каталог</h2>
             <div class="product-card">
                 <div class="product-card_image">
                     <img src="https://www.apple.com/v/mac/home/bj/images/meta/mac__bfa414svyuc2_og.png">
+                </div>
+                <div class="product-card_info">
+                    <div class="product-card-info_title">
+                        <p> Ноутбук Honor x15</p>
+                        <p>162,00 р.</p>
+                    </div>
+                    <div>
+                        <p>Краткая информация</p>
 
-
+                    </div>
+                    <div class="product-card-info-btn">
+                        <a href=""> Купить в 1 клик</a>
+                    </div>
                 </div>
             </div>
-            <div class="product-card_info"> 
-                <div class="product-card-info_title">
-                <p> Ноутбук Honor x15</p>
-                <p>162,00 р.</p>
+            <div class="product-card">
+                <div class="product-card_image">
+                    <img src="https://www.apple.com/v/mac/home/bj/images/meta/mac__bfa414svyuc2_og.png">
+                </div>
+                <div class="product-card_info">
+                    <div class="product-card-info_title">
+                        <p> Ноутбук Honor x15</p>
+                        <p>162,00 р.</p>
+                    </div>
+                    <div>
+                        <p>Краткая информация</p>
+
+                    </div>
+                    <div class="product-card-info-btn">
+                        <a href=""> Купить в 1 клик</a>
+                    </div>
+                </div>
             </div>
-            </div>
-        </section>
-        <section id="catalog" style="height: 100vh;">
-            <h2>Каталог</h2>
         </section>
         <section id="delivery" style="height: 100vh;">
             <h2>Доставка</h2>
